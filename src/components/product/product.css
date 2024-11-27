@@ -1,0 +1,80 @@
+.product-container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   justify-content: center;
+    column-gap: 100px;
+    row-gap: 100px;
+    justify-items: center;
+   
+
+
+}
+
+.product-container a{
+    color: #000;
+}
+
+.btn{
+    color: white !important;
+    background:linear-gradient(90deg, rgb(255, 83, 83) 21%, rgb(170, 0, 255) 76%);
+    /* width: fit-content; */
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.card{
+
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    box-shadow: 5px 1px 15px 5px rgba(128, 128, 128, 0.504);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.card h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pro-desc{
+    color: gray;
+    font-weight: normal;
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+}
+
+.pro-price{
+    display: flex;
+    gap: 10px;
+}
+
+.card .pro-price p:nth-child(1){
+color: var(--theme-main);
+font-weight: 600;
+}
+.card .pro-price p:nth-child(2){
+text-decoration: line-through;
+}
+
+.price-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .price-sec i{
+    color: gold;
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
+}

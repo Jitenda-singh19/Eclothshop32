@@ -1,0 +1,27 @@
+.heading{
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1{
+    color: #5356FF;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    font-style: italic;
+}
+
+.heading h1::after{
+
+    content: "";
+    height: 5px;
+    background:linear-gradient(90deg, rgb(255, 83, 83) 21%, rgb(170, 0, 255) 76%);
+    width: 60%;
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    border-radius: 60px;
+
+}
